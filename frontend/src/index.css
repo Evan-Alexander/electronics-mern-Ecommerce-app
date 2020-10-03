@@ -1,0 +1,11 @@
+main {
+  min-height: 80vh;
+}
+
+.navbar-light .navbar-toggler,
+.navbar-light .navbar-toggler:visited,
+.navbar-light .navbar-toggler:active,
+.navbar-light .navbar-toggler:focus {
+  border: none;
+  outline: none;
+}
