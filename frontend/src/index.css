@@ -9,3 +9,20 @@ main {
   border: none;
   outline: none;
 }
+
+a {
+  color: black !important;
+}
+
+.product-card {
+  min-height: 420px;
+}
+
+.rating {
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
