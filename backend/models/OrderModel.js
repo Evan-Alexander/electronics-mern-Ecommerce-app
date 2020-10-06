@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 
-const userSchema = mongoose.Schema(
+const orderSchema = mongoose.Schema(
   {
-    //User that buys the product
     user: {
       type: mongoose.Schema.Types.ObjectId,
       required: true,
