@@ -1,21 +1,30 @@
-main {
-  min-height: 80vh;
+.navbar {
+  border: none !important;
+  box-shadow: 0 5px 5px -5px #28353f;
+}
+.navbar-dark .navbar-brand {
+  font-size: 1.5rem;
 }
 
-.navbar-light .navbar-toggler,
-.navbar-light .navbar-toggler:visited,
-.navbar-light .navbar-toggler:active,
-.navbar-light .navbar-toggler:focus {
-  border: none;
+.navbar-dark .navbar-toggler,
+.navbar-dark .navbar-toggler:visited,
+.navbar-dark .navbar-toggler:active,
+.navbar-dark .navbar-toggler:focus,
+.navbar .nav-link {
+  border: none !important;
   outline: none;
 }
 
-a {
-  color: black !important;
+main {
+  min-height: 80vh;
+  background-color: #425666;
 }
 
 .product-card {
   min-height: 420px;
+  border: none !important;
+  background-color: #354754 !important;
+  box-shadow: 0 10px 10px -5px #28353f;
 }
 
 .rating {

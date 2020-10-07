@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <Navbar bg="dark" varient="dark" expand="lg" collapseOnSelect>
+      <Navbar className="navbar-dark bg-primary" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>ProShop</Navbar.Brand>
