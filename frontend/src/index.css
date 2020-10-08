@@ -20,6 +20,11 @@ main {
   background-color: #425666;
 }
 
+h1 {
+  padding: 0.4rem 0;
+  font-size: 1.4rem;
+}
+
 .product-card {
   min-height: 420px;
   border: none !important;
