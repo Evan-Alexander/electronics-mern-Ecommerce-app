@@ -15,6 +15,15 @@
   outline: none;
 }
 
+.navbar-brand {
+  border: none !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  background-image: none !important;
+}
+
 main {
   min-height: 80vh;
   background-color: #425666;
@@ -27,9 +36,8 @@ h1 {
 
 .product-card {
   min-height: 420px;
-  border: none !important;
+
   background-color: #354754 !important;
-  box-shadow: 0 10px 10px -5px #28353f;
 }
 
 .rating {
@@ -39,4 +47,9 @@ h1 {
 
 .rating span {
   margin: 0.1rem;
+}
+
+.card {
+  box-shadow: 0 10px 10px -5px #28353f !important;
+  border: none !important;
 }

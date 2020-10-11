@@ -42,19 +42,21 @@ const ProductScreen = ({ history, match }) => {
             <Image src={product.image} alt={product.name} fluid />
           </Col>
           <Col md={3}>
-            <ListGroup variant="flush">
-              <ListGroup.Item>
-                <h3>{product.name}</h3>
-              </ListGroup.Item>
-              <ListGroup.Item>
-                <Rating
-                  value={product.rating}
-                  text={`${product.numReviews} reviews`}
-                />
-              </ListGroup.Item>
-              <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
-              <ListGroup.Item>{product.description}</ListGroup.Item>
-            </ListGroup>
+            <Card>
+              <ListGroup variant="flush">
+                <ListGroup.Item>
+                  <h3>{product.name}</h3>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  <Rating
+                    value={product.rating}
+                    text={`${product.numReviews} reviews`}
+                  />
+                </ListGroup.Item>
+                <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
+                <ListGroup.Item>{product.description}</ListGroup.Item>
+              </ListGroup>
+            </Card>
           </Col>
           <Col md={3}>
             <Card>

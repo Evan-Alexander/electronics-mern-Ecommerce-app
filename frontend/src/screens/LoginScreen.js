@@ -55,8 +55,8 @@ const LoginScreen = ({ location, history }) => {
           Sign In
         </Button>
       </Form>
-      <Row className="py-3">
-        <Col>
+      <Row className="justify-content-md-center py-3">
+        <Col md="auto">
           New Customer?
           <span className="ml-3">
             <Link to={redirect ? `/register?redirect=${redirect}` : "register"}>

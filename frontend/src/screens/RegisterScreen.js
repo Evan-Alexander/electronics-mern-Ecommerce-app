@@ -81,8 +81,8 @@ const RegisterScreen = ({ location, history }) => {
           Register
         </Button>
       </Form>
-      <Row className="py-3">
-        <Col>
+      <Row className="justify-content-md-center py-3">
+        <Col md="auto">
           Already have an account?
           <span className="ml-3">
             <Link to={redirect ? `/login?redirect=${redirect}` : "login"}>
