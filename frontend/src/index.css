@@ -34,6 +34,11 @@ h1 {
   font-size: 1.4rem;
 }
 
+.card {
+  box-shadow: 0 10px 10px -5px #28353f !important;
+  border: none !important;
+}
+
 .product-card {
   min-height: 420px;
 
@@ -47,9 +52,4 @@ h1 {
 
 .rating span {
   margin: 0.1rem;
-}
-
-.card {
-  box-shadow: 0 10px 10px -5px #28353f !important;
-  border: none !important;
 }
